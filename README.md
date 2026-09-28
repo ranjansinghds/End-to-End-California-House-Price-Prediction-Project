@@ -19,6 +19,20 @@ The project covers the complete Machine Learning workflow, including:
 
 ---
 
+## 🚀 Streamlit Deployment
+
+The trained HistGradientBoosting model is deployed using Streamlit, providing a simple and interactive interface for house price prediction.
+
+Users can enter housing and geographical characteristics, including location, number of rooms, bedrooms, population, households, median income, and ocean proximity. After clicking **Predict House Value**, the application processes the input using the saved preprocessing and machine learning pipeline and displays the predicted median house value.
+
+### Example Prediction
+
+For the example input shown below, the application predicts a median house value of **$431,443.90**.
+
+![California House Price Predictor](https://github.com/ranjansinghds/End-to-End-California-House-Price-Prediction-Project/blob/main/House%20Price%20Prediction%20Project%20Png/California%20House%20Price%20Predictor.png)
+
+---
+
 ## 📌 Project Overview
 
 The goal of this project is to build a Machine Learning regression model that predicts:
